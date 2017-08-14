@@ -27,11 +27,10 @@
     </v-navigation-drawer>
     <v-toolbar fixed class="indigo darken-4" dark>
       <v-toolbar-side-icon @click.native.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Toolbar</v-toolbar-title>
+      <v-toolbar-title>FCC Nightlife</v-toolbar-title>
     </v-toolbar>
     <main>
       <v-container fluid>
-        <div class="title">Click on sidebar to re-open.</div>
         <nuxt/>
       </v-container>
     </main>
@@ -46,8 +45,7 @@ export default {
       items: [
         { title: 'Home', icon: 'dashboard' },
         { title: 'About', icon: 'question_answer' }
-      ],
-      right: null
+      ]
     }
   }
 }

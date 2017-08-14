@@ -1,14 +1,15 @@
 <template>
   <div>
+    <v-flex xs8>
+      <v-text-field name="location" label="Where you at?"></v-text-field>
+    </v-flex>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
   }
 }
 </script>
